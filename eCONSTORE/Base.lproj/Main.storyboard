@@ -27,8 +27,11 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="aO1-te-2de" secondAttribute="trailing" constant="20" id="Mdh-GW-A3b"/>
+                            <constraint firstItem="TFx-RZ-C6b" firstAttribute="top" secondItem="aO1-te-2de" secondAttribute="bottom" constant="20" id="PYt-4E-JWS"/>
                             <constraint firstItem="aO1-te-2de" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="fT6-mb-sfT"/>
+                            <constraint firstItem="TFx-RZ-C6b" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="ha0-Mv-QKH"/>
                             <constraint firstItem="aO1-te-2de" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="20" id="kDr-LI-zgM"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="TFx-RZ-C6b" secondAttribute="trailing" constant="20" id="rjz-x9-qnQ"/>
                         </constraints>
                     </view>
                 </viewController>
