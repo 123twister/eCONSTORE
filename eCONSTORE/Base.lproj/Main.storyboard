@@ -27,16 +27,23 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="m8K-ZC-fMD">
+                                <rect key="frame" x="20" y="159" width="374" height="30"/>
+                                <state key="normal" title="Button"/>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
+                            <constraint firstItem="m8K-ZC-fMD" firstAttribute="top" secondItem="TFx-RZ-C6b" secondAttribute="bottom" constant="20" id="9NI-6f-gG4"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="aO1-te-2de" secondAttribute="trailing" constant="20" id="Mdh-GW-A3b"/>
                             <constraint firstItem="TFx-RZ-C6b" firstAttribute="top" secondItem="aO1-te-2de" secondAttribute="bottom" constant="20" id="PYt-4E-JWS"/>
                             <constraint firstItem="aO1-te-2de" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="fT6-mb-sfT"/>
+                            <constraint firstItem="m8K-ZC-fMD" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="hZZ-rf-zix"/>
                             <constraint firstItem="TFx-RZ-C6b" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="ha0-Mv-QKH"/>
                             <constraint firstItem="aO1-te-2de" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="20" id="kDr-LI-zgM"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="TFx-RZ-C6b" secondAttribute="trailing" constant="20" id="rjz-x9-qnQ"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="m8K-ZC-fMD" secondAttribute="trailing" constant="20" id="tXj-2j-Vgn"/>
                         </constraints>
                     </view>
                 </viewController>
